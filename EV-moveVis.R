@@ -5,7 +5,7 @@ library(move)
 library(moveVis)
 library(magick)
 
-setwd("~/Google Drive/Completed Projects/Egyptian Vulture/EGVU_Papers/EV_Migration/R_Code")
+setwd("~/Google Drive/R projects/EV-vis/")
 
 
 V = read.csv("EVAS.csv")
@@ -49,7 +49,7 @@ for(i in 1:length(indi_subset)){
 conv_dir <- get_imconvert()
 
 #OUTPUT Directory
-out_dir <- "~/Google Drive/Completed Projects/Egyptian Vulture/EGVU_Papers/EV_Migration/R_Code"
+out_dir <- "~/Google Drive/R projects/EV-vis/"
 
 img_title <- "Egyptian Vulture (Neophron percnopterus) migrations across three continents"
 img_caption <- "August 2010-March 2017"
